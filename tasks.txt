@@ -1,0 +1,12 @@
+use movies;
+
+show tables;
+
+select * from users;
+select * from sessions;
+
+drop table users;
+
+drop table sessions;
+
+ALTER TABLE sessions MODIFY COLUMN jwt LONGTEXT;
